@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_staffhome"
+        android:name="com.example.myapplication.ui.home.StaffHome"
+        android:label="Staff Home"
+        tools:layout="@layout/staff_home_fragment" />
+
+    <fragment
+        android:id="@+id/nav_AirportAdminHome"
+        android:name="com.example.myapplication.ui.home.AirportAdminHome"
+        android:label="Airport Admin Home"
+        tools:layout="@layout/airport_admin_home_fragment" />
+
+    <fragment
+        android:id="@+id/nav_MCoordinatorHome"
+        android:name="com.example.myapplication.ui.home.MCoordinatorHome"
+        android:label="MCoordinator Home"
+        tools:layout="@layout/mcoordinator_home_fragment" />
+
+    <fragment
+        android:id="@+id/nav_InventoryInchargeHome"
+        android:name="com.example.myapplication.ui.home.InventoryInchargeHome"
+        android:label="Inventory Incharge  Home"
+        tools:layout="@layout/inventory_incharge_home_fragment" />
+
+    <fragment
+        android:id="@+id/nav_MTeamLeaderHome"
+        android:name="com.example.myapplication.ui.home.MTeamLeaderHome"
+        android:label="MTeamLeader Home"
+        tools:layout="@layout/mteam_leader_home_fragment" />
+
+    <fragment
+        android:id="@+id/nav_DeptHeadHome"
+        android:name="com.example.myapplication.ui.home.DeptHeadHome"
+        android:label="Dept Head  Home"
+        tools:layout="@layout/dept_head_home_fragment" />
+
+    <fragment
+        android:id="@+id/nav_MainAdminHome"
+        android:name="com.example.myapplication.ui.home.MainAdminHome"
+        android:label="Maintenance Admin Home"
+        tools:layout="@layout/main_admin_home_fragment" />
+
+    <!--fragment for scan QR section-->
+<!--    <fragment-->
+<!--        android:id="@+id/nav_scan"-->
+<!--        android:name="com.example.myapplication.ui.scan.scan"-->
+<!--        android:label="scan"-->
+<!--        tools:layout="@layout/fragment_scan" />-->
+
+    <!--fragment for help section-->
+    <fragment
+        android:id="@+id/nav_manage"
+        android:name="com.example.myapplication.ui.help.help"
+        android:label="@string/menu_manage"
+        tools:layout="@layout/fragment_manage" />
+
+    <!--fragment for help section-->
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.myapplication.ui.help.help"
+        android:label="@string/menu_help"
+        tools:layout="@layout/fragment_help" />
+
+    <!--fragment for History section-->
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.myapplication.ui.airportstaff.History"
+        android:label="History"
+        tools:layout="@layout/history_fragment" />
+    <!--DEPT HEAD-->
+    <!--fragment for Add Staff section-->
+    <fragment
+        android:id="@+id/nav_addstaff"
+        android:name="com.example.myapplication.ui.depthead.AddStaff"
+        android:label="@string/depthead_addstaff"
+        tools:layout="@layout/add_staff_fragment" />
+    <!--fragment for Add Staff section-->
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="com.example.myapplication.ui.depthead.MainReport"
+        android:label="@string/depthead_report"
+        tools:layout="@layout/main_report_fragment" />
+    <!--INVENTORY INCHARGE-->
+    <!--fragment for Add Item section-->
+    <fragment
+        android:id="@+id/nav_additem"
+        android:name="com.example.myapplication.ui.InventoryIncharge.AddItem"
+        android:label="Add New Item"
+        tools:layout="@layout/add_item_fragment" />
+    <!--fragment for Modify Item section-->
+    <fragment
+        android:id="@+id/nav_modifyitem"
+        android:name="com.example.myapplication.ui.InventoryIncharge.ModifyItem"
+        android:label="Modify Item Details"
+        tools:layout="@layout/modify_item_fragment" />
+    <!--fragment for Delete Item section-->
+    <fragment
+        android:id="@+id/nav_deleteitem"
+        android:name="com.example.myapplication.ui.InventoryIncharge.DeleteItem"
+        android:label="Delete Item"
+        tools:layout="@layout/delete_item_fragment" />
+    <!--fragment for Lists section-->
+    <fragment
+        android:id="@+id/nav_lists"
+        android:name="com.example.myapplication.ui.InventoryIncharge.Lists"
+        android:label="Lists"
+        tools:layout="@layout/lists_fragment" />
+
+    <!--AIRPORT ADMIN-->
+    <!--fragment for Add Department section-->
+    <fragment
+        android:id="@+id/nav_adddept"
+        android:name="com.example.myapplication.ui.airportadmin.AddDept"
+        android:label="Add New Department"
+        tools:layout="@layout/add_dept_fragment" />
+    <!--fragment for Department Reports section-->
+    <fragment
+        android:id="@+id/nav_reportofdepts"
+        android:name="com.example.myapplication.ui.airportadmin.DeptReports"
+        android:label="Department Reports"
+        tools:layout="@layout/dept_reports_fragment" />
+
+    <!--MAINTENANCE ADMIN-->
+    <!--fragment for View Teams section-->
+    <fragment
+        android:id="@+id/nav_viewteam"
+        android:name="com.example.myapplication.ui.maintenanceadmin.ViewTeams"
+        android:label="View Teams"
+        tools:layout="@layout/view_teams_fragment" />
+    <!--fragment for View Teams section-->
+    <fragment
+        android:id="@+id/nav_analytics"
+        android:name="com.example.myapplication.ui.maintenanceadmin.Analytics"
+        android:label="Analytics"
+        tools:layout="@layout/analytics_fragment" />
+    <!--fragment for Get Help section-->
+    <fragment
+        android:id="@+id/nav_madmin_gethelp"
+        android:name="com.example.myapplication.ui.maintenanceadmin.GetHelp"
+        android:label="Get Help"
+        tools:layout="@layout/get_help_fragment" />
+
+    <!--MAINTENANCE TEAM LEADER-->
+    <!--fragment for Allocate Request  section-->
+    <fragment
+        android:id="@+id/nav_allocate"
+        android:name="com.example.myapplication.ui.maintenanceteamleader.AllocateRequest"
+        android:label="Allocate Request"
+        tools:layout="@layout/allocate_request_fragment" />
+    <!--fragment for Get Help section-->
+    <fragment
+        android:id="@+id/nav_mainteamleader_gethelp"
+        android:name="com.example.myapplication.ui.maintenanceteamleader.TeamLeaderGetHelp"
+        android:label="Get Help"
+        tools:layout="@layout/team_leader_get_help_fragment" />
+    <!--fragment for View Report section-->
+    <fragment
+        android:id="@+id/nav_teamleaderreport"
+        android:name="com.example.myapplication.ui.maintenanceteamleader.ViewReport"
+        android:label="View Report"
+        tools:layout="@layout/view_report_fragment" />
+    <!--MAINTENANCE COORDINATOR-->
+    <!--fragment for Assign Tasks section-->
+    <fragment
+        android:id="@+id/nav_assigntask"
+        android:name="com.example.myapplication.ui.maintenancecoordinator.AssignTasks"
+        android:label="Assign Tasks"
+        tools:layout="@layout/assign_tasks_fragment" />
+
+
+    <!--fragment for logout section-->
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.myapplication.ui.help.help"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/logout_fragment" />
+
+
+
+
+
+</navigation>

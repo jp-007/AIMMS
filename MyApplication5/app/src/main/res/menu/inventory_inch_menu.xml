@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_InventoryInchargeHome"
+            android:icon="@drawable/final_home_icon"
+            android:title="inventory Incharge"
+            />
+        <item
+            android:id="@+id/nav_additem"
+            android:icon="@drawable/final_addequip_icon"
+            android:title="@string/menu_additem"
+            />
+        <item
+            android:id="@+id/nav_modifyitem"
+            android:icon="@drawable/final_updateequip_icon"
+            android:title="@string/menu_modifyitem"
+            />
+        <item
+            android:id="@+id/nav_deleteitem"
+            android:icon="@drawable/final_deleteequip_icon"
+            android:title="@string/menu_deleteitem"
+            />
+        <item
+            android:id="@+id/nav_lists"
+            android:icon="@drawable/final_lists_icon"
+            android:title="@string/menu_list"
+            />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/final_help_icon"
+            android:title="Help"
+            />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_icon"
+            android:title="@string/menu_logout"
+            />
+    </group>
+
+</menu>

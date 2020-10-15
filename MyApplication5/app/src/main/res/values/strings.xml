@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Airport Inventory</string>
+
+    <string name="username">username</string>
+    <string name="password">password</string>
+
+    <string name="start"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_manage">Manage</string>
+    <string name="menu_logout">Log out</string>
+
+    <string name="menu_myprofile">My Profile</string>
+
+
+    <string name="menu_addstaff">Add Staff</string>
+
+    <string name="menu_additem">Add Item</string>
+    <string name="menu_modifyitem">Modify Item Details</string>
+    <string name="menu_deleteitem">Delete Item</string>
+
+    <string name="menu_adddept">Add Department</string>
+    <string name="menu_reportofdepts">Reports</string>
+    <string name="menu_viewteam">View Team</string>
+    <string name="menu_analytics">Analytics</string>
+    <string name="menu_madmin_gethelp">Get Help</string>
+    <string name="menu_allocate">Allocate</string>
+
+
+    <string name="assign_task">Assign Task</string>
+
+    <string name="menu_report">Maintenance Report</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="help_section">help section</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="menu_list">List</string>
+
+    <string name="menu_teamleader_report">Report</string>
+
+    <string name="loginas">Login as:</string>
+    <string name="menu_history">History</string>
+    <string name="depthead_addstaff">Add Staff</string>
+    <string name="depthead_report">Maintenance Report</string>
+
+    <string-array name="frequency">
+
+        <item> Daily</item>
+        <item> Weekly</item>
+        <item> Monthly</item>
+        <item> Yearly</item>
+    </string-array>
+</resources>

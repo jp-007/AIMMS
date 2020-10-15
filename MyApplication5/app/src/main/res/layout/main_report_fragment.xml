@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.depthead.MainReport"
+    android:orientation="vertical"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Spinner
+        android:id="@+id/aspinner_mfreq"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+
+
+
+        android:layout_marginTop="40dp"
+        android:entries="@array/frequency"
+        android:layout_gravity="center"
+        android:elevation="10dp"
+        >
+
+    </Spinner>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+
+        app:cardElevation="20dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="completed">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        app:cardElevation="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ongoing">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        app:cardElevation="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="cancelled">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <!--TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" /-->
+
+</LinearLayout>
